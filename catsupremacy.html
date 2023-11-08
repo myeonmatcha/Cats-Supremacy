@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>≽^•⩊•^≼</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('Background.avif');
+            text-align: right;
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: auto;
+        }
+
+        h1 {
+            padding: 20px;
+            color: white;
+        }
+
+        .cat-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        .cat {
+            width: 300px;
+            height: 200px;
+            margin: 10px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: 2px solid white;
+            border-radius: 10px;
+        }
+
+        .cat:hover {
+            transform: scale(1.5);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+        }
+
+        @media (max-width: 768px) {
+            .cat {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>≽^•⩊•^≼</h1>
+    <div class="cat-gallery">
+        <div class="cat" style="background-image: url('Cat1.gif');"></div>
+        <div class="cat" style="background-image: url('Cat2.avif');"></div>
+        <div class="cat" style="background-image: url('Cat3.jpg');"></div>
+        <div class="cat" style="background-image: url('Cat4.jpg');"></div>
+        <div class="cat" style="background-image: url('Cat5.avif');"></div>
+        <div class="cat" style="background-image: url('Cat6.jfif');"></div>
+        <div class="cat" style="background-image: url('CAT7.jpg');"></div>
+    </div>
+</body>
+</html>
